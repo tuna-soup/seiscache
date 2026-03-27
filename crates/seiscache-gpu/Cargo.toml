@@ -1,0 +1,10 @@
+[package]
+name = "seiscache-gpu"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+seiscache-core = { path = "../seiscache-core" }
+
